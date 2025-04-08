@@ -1,0 +1,166 @@
+body {
+    font: 'Poppins', sans-serif;
+    background-color: black !important;
+}
+
+footer a, section a {
+    color: white;
+    text-decoration: none;
+}
+
+    img {
+        width: 128px;
+        height: 50px;
+    }
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #FFFFFF7A;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.btn-white {
+    background-color: #FFFFFF !important;
+}
+
+.smallerInput {
+    width: 350px !important;
+    height: 50px !important;
+
+}
+
+.input-group input:focus {
+    box-shadow: 0 0 10px red !important;
+    border-color: rgba(139, 0, 0, 0.75);
+}
+
+.LDL {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.Services {
+    font-size: 12px;
+    height: 60px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.servicesContent {
+    display: flex;
+    justify-content: center;
+}
+
+.allProdFilt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.prodSection {
+    background-color: white;
+}
+
+.dataSection {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.dataSection h4 {
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.dataSection, .Social  {
+    margin-left: 4em;
+}
+
+.FAQ {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-left: 3em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.FAQDiv {
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 4em;
+    gap: 4em;
+}
+
+.FAQ, .dataSection {
+    padding: 10px;
+}
+
+.aboutUs {
+    max-width: 44em;
+}
+
+.Social {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center !important;
+}
+
+.socialDiv {
+    display: flex;
+    margin-right: 5em;
+    gap: 4em;
+    margin-bottom: 3px;
+}
+
+footer {
+    display: flex-direction;
+    color: white;
+    background-color: black;
+}
+
+footer h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.VISAICO, .MASTERCARDICO, .GOOGLESAFEICO {
+    height: 45px;
+}
+
+.PIXICO {
+    height: 25px;
+}
+
+.BOLETOICO {
+    width: 60px;
+    height: 55px;
+}
+
+/* .iconsDiv {
+    display: flex;
+    gap: 10px;
+    justify-content: center;  
+    align-items: center;
+} */
+
+.iconsDiv img {
+    margin-left: 20px;
+    width: 50px;
+    height: auto;
+}
