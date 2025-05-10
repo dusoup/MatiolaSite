@@ -64,15 +64,6 @@ header {
     justify-content: center;
 }
 
-.allProdFilt {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-}
-.prodSection {
-    background-color: white;
-}
-
 .dataSection {
     display: flex;
     font-size: 14px;
@@ -152,15 +143,66 @@ footer h4 {
     height: 55px;
 }
 
-/* .iconsDiv {
-    display: flex;
-    gap: 10px;
-    justify-content: center;  
-    align-items: center;
-} */
-
 .iconsDiv img {
     margin-left: 20px;
     width: 50px;
     height: auto;
+}
+
+/* Sessão de produtos */
+
+.prodSection {
+    background-color: white;
+    padding: 6%;
+}
+
+.prodSection-menu {
+    display: flex;
+    gap: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodSection-title {
+    font-size: 22px;
+}
+
+.prodSection-filters {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+.prodSection-pagination {
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.prodSection-pagination li a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    transition: background-color 0.3s, filter 0.3s; /*faz a transição de claro pra escuro*/
+}
+
+.prodSection-pagination li a:hover {
+    background-color: black;
+    filter: brightness(0.8); /*deixa o branco um pouco menos branco*/
+    color: white;
+}
+
+.prodSection-products {
+    margin: 50px;
 }
